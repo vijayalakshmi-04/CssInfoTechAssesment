@@ -35,7 +35,7 @@ public class ChromeBrowserURL {
             "FourthURLPage.png",
             "FifthURLPage.png"
         };
-        String deviceName="ASUS";
+        String deviceName="HP";
         String resolution="1920X1080";  
         for (int i = 0; i < urls.length; i++) {
             driver.get("https://www.getcalley.com/page-sitemap.xml");

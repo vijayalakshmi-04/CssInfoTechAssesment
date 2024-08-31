@@ -31,7 +31,7 @@ public class FunctionalTestCase {
 		driver.findElement(By.xpath("//span[text()='Orders']")).click();
 		driver.findElement(By.xpath("//button[text()='Add Bulk Orders']")).click();
 		driver.findElement(By.xpath("//input[@type='file']"))
-				.sendKeys("C:\\Users\\abhis\\OneDrive\\Desktop\\demo-data.xlsx");
+				.sendKeys("‪C:\\Users\\D VIJAYA LAKSHMI\\Downloads\\demo-data.xlsx");
 		Thread.sleep(1000);
 		driver.findElement(By.xpath("//button[text()='Import']")).click();
 		driver.findElement(By.xpath("//button[text()='Validate Data']")).click();
